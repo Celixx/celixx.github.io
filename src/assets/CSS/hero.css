@@ -1,0 +1,16 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 100vh;
+
+    /* background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px); */
+}
+
+.alonso-hero {
+    height: 300px;
+    border-radius: 5%;
+    filter: drop-shadow(5px 5px 10px black);
+}

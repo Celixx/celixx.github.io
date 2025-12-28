@@ -1,0 +1,30 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 16px 32px;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px);
+}
+
+.navigation ul {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.navigation a {
+    font-weight: bold;
+    color: white;
+}
+
+.github-logo {
+    height: 21px;
+}
+
+.linkedin-logo {
+    height: 21px;
+    filter: invert(1);
+}

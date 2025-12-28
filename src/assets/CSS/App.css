@@ -1,0 +1,23 @@
+.app-container {
+  min-height: 100vh;
+}
+
+.app-header {
+  position: sticky;
+  top: 0;
+
+  z-index: 50;
+}
+
+.app-content {
+  width: 1024px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 32px 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
